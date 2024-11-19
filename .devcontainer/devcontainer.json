@@ -10,7 +10,8 @@
  "customizations": {
      "vscode": {
          "extensions": [
-             "GitHub.copilot"
+             "GitHub.copilot",
+             "ms-azuretools.vscode-azurestorage"
          ]
      },
      "codespaces": {
@@ -19,6 +20,5 @@
          ]
      }
  } ,
- "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md",
- "codespace": "ms-azuretools.vscode-azurestorage"
+ "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
 }
